@@ -7,7 +7,7 @@ from flask import Flask, request, render_template
 import pickle
 
 app = Flask("__name__")
-
+app.debug = True 
 df_1=pd.read_csv("Customer-Churn.csv")
 
 q = ""
@@ -64,7 +64,7 @@ def predict():
     inputQuery18 = request.form['query18']
     inputQuery19 = request.form['query19']
 
-    model = pickle.load(open("model.sav", "rb"))
+    model = pickle.load(open("randomForestModel.sav", "rb"))
     
     data = [[inputQuery1, inputQuery2, inputQuery3, inputQuery4, inputQuery5, inputQuery6, inputQuery7, 
              inputQuery8, inputQuery9, inputQuery10, inputQuery11, inputQuery12, inputQuery13, inputQuery14,
@@ -95,7 +95,7 @@ def predict():
     
     #final_df=pd.concat([new_df__dummies, new_dummy], axis=1)
         
-    
+    #Predicting On our Query
     single = model.predict(new_df__dummies.tail(1))
     probablity = model.predict_proba(new_df__dummies.tail(1))[:,1]
     

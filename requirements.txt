@@ -33,6 +33,7 @@ face-recognition-models==0.3.0
 fastjsonschema==2.16.2
 filelock==3.8.0
 fonttools==4.38.0
+gunicorn==20.1.0
 idna==3.4
 ipykernel==6.17.0
 ipython==8.6.0
@@ -61,6 +62,7 @@ notebook==6.5.2
 notebook_shim==0.2.0
 numpy==1.23.4
 oauthlib==3.2.2
+opencv-python==4.6.0.66
 packaging==21.3
 pandas==1.5.1
 pandocfilters==1.5.0
