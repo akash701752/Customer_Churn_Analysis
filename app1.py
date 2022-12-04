@@ -127,5 +127,5 @@ def predict():
                            query18 = request.form['query18'], 
                            query19 = request.form['query19'])
     
-if __name__ == "__main__"
+if __name__ == "__main__" :
 	app.run(debug=False,host='0.0.0.0')
