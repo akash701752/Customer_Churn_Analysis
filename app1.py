@@ -7,7 +7,7 @@ from flask import Flask, request, render_template
 import pickle
 
 app = Flask("__name__")
-app.debug = True 
+
 df_1=pd.read_csv("Customer-Churn.csv")
 
 q = ""
@@ -127,4 +127,5 @@ def predict():
                            query18 = request.form['query18'], 
                            query19 = request.form['query19'])
     
-app.run()
+if __name__ == "__main__"
+	app.run(debug=False,host='0.0.0.0')
