@@ -20,3 +20,13 @@ Overall, the customer churn prediction project can help companies reduce custome
 
 # Churn Details
 ![ChurnDetails](ChurnDetails.png) 
+
+# Overview of Project
+Customer are most valuable asset to any organization, sustaining customer is a difficult task. By this model we will do some EDA(Exploratory Data Analysis)
+on customer data to get the insights why the customers are churning, so we can provide them a better services by knowing their interests.
+I have developed this project in order to gain some knowledge in Machine Learning and data analysis.
+
+# Source 
+Youtube : https://www.youtube.com/
+Python Documentaion : https://docs.python.org/3/
+Kaggle : https://www.kaggle.com/
