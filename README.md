@@ -27,6 +27,6 @@ on customer data to get the insights why the customers are churning, so we can p
 I have developed this project in order to gain some knowledge in Machine Learning and data analysis.
 
 # Source 
-Youtube : https://www.youtube.com/
-Python Documentaion : https://docs.python.org/3/
-Kaggle : https://www.kaggle.com/
+Youtube : https://www.youtube.com/  
+Python Documentaion : https://docs.python.org/3/   
+Kaggle : https://www.kaggle.com/   
