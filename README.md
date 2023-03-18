@@ -19,4 +19,4 @@ Overall, the customer churn prediction project can help companies reduce custome
 ![CustomerDetails](CustomerDetails.png)  
 
 # Churn Details
-![ChurnDetails](CustomerDetails.png) 
+![ChurnDetails](ChurnDetails.png) 
