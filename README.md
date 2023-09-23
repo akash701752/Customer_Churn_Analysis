@@ -3,7 +3,7 @@ The objective of the customer churn prediction project is to develop a model tha
 I have created this project on Flask framework.
 
 # Description 
-he customer churn prediction project involves analyzing customer data and building a predictive model using various machine learning algorithms. The project requires collecting and preprocessing customer data such as demographic information, customer behavior, and transactional data. The data is then cleaned and transformed into a format suitable for analysis.
+The customer churn prediction project involves analyzing customer data and building a predictive model using various machine learning algorithms. The project requires collecting and preprocessing customer data such as demographic information, customer behavior, and transactional data. The data is then cleaned and transformed into a format suitable for analysis.
 
 Once the data is prepared, various machine learning algorithms such as logistic regression, decision trees, random forests, and neural networks can be applied to the data to identify patterns and relationships that indicate the likelihood of a customer churning. The model's performance is evaluated using metrics such as accuracy, precision, recall, and F1 score.
 
